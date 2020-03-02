@@ -1,18 +1,29 @@
 <html>
     <head>
         <style>
-            .top{
-                border: 2px solid gray;
+            .container {
+                display: flex; 
+                width: 200px;
+                height: 60px;
+                background: lightblue;
+            }
+
+            .item {                                
+                width: 20px;
+                background: goldenrod;
+                line-height: 55px;
+                text-align: center;
+                margin: 2px;
             }
         </style>
     </head>
     <body>
-        <div class="top">
-            <p>Name</p>
-            <p>About</p>
-            <p>Projects</p>
-            <p>More</p>
-        </div>
+        <div class="container">
+            <div class="item">Name</div>
+            <div class="item">About</div>
+            <div class="item">Projects</div>
+            <div class="item">More</div>
+         </div>
         <img src="./IMG_9620.jpg" alt="pic of me" width="100">
         <p>Section about myself</p>
     </body>
