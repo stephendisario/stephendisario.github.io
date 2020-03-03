@@ -1,10 +1,12 @@
 <html>
     <head>
         <style>
-            .header {
+            .main{
                 margin-left: 20px;
                 margin-right: 20px;
-                margin-top: 20px;
+                margin-top: 20px;               
+            }
+            .header {
                 display: flex; 
                 height: 60px;
                 background: darkgrey;
@@ -29,35 +31,40 @@
             .projectArea{
                 border: 1px solid black;
             }
+            .bold{
+                text-align: center;
+            }
         </style>
     </head>
     <body>
-        <div class="header">
-            <div class="item"><a href=".nameArea">Name</a></div>
-            <div class="item"><a href=".aboutArea">About</a></div>
-            <div class="item"><a href=".projectArea">Projects</a></div>
-            <div class="item">More</div>
-         </div>
-         <div class="nameArea">
-            <div class="nameItem">Stephen Disario</div>
-            <div class="nameItem"><img src="./IMG_9620.jpg" alt="pic of me" width="100"></div>
-            <div class="nameItem">Section about myself</div>
-         </div>
-         <div class="aboutArea">
-             <h1 class="bold">About Section</h1>
-             <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                  ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                   aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+        <div class="main">
+            <div class="header">
+                <div class="item"><a href="#nameArea">Name</a></div>
+                <div class="item"><a href="#aboutArea">About</a></div>
+                <div class="item"><a href="#projectArea">Projects</a></div>
+                <div class="item">More</div>
+            </div>
+            <div class="nameArea" id="nameArea">
+                <div class="nameItem">Stephen Disario</div>
+                <div class="nameItem"><img src="./IMG_9620.jpg" alt="pic of me" width="100"></div>
+                <div class="nameItem">Section about myself</div>
+            </div>
+            <div class="aboutArea" id="aboutArea">
+                <h1 class="bold">About Section</h1>
+                <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                    ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+                    eu fugiat nulla pariatur.
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+            <div class="projectArea" id="projectArea">
+                <h1 class="bold">Projects</h1>
+                <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                    ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
                 eu fugiat nulla pariatur.
-                  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-         </div>
-         <div class="projectArea">
-            <h1 class="bold">Projects</h1>
-            <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                 aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
-              eu fugiat nulla pariatur.
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>            
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>            
+            </div>
          </div>
     </body>
 </html>
